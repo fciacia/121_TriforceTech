@@ -22,7 +22,7 @@ GreenTrust Pulse is an AI-powered intelligence engine that monitors, analyzes, a
 - **Cost Efficiency**: Replaces costly ESG consulting with an automated platform.
 
 ## GreenTrust Pulse blends:
-- **Zhipu AI GLM-4 + GraphRAG**: Bilingual (Bahasa Malaysia & English) reasoning for local context.
+- **Z'AI GLM-4 + GraphRAG**: Bilingual (Bahasa Malaysia & English) reasoning for local context.
 - **Multi-Agent Swarm Intelligence**: 4 specialized AI agents debating business pivots.
 - **Supply Chain Knowledge Graphs**: Visualizing risk propagation and ripple impacts.
 - **Financial ROI Calculation**: Mapping ESG scores directly to interest rate savings (RM).
