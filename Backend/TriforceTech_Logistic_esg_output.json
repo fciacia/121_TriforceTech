@@ -1,0 +1,253 @@
+{
+  "basic_info": {
+    "sme_name": "TriforceTech Logistic",
+    "sector": "Logistics"
+  },
+  "early_warning": {
+    "headline": "Illegal Chemical Dumping investigation",
+    "esg_drop": 12.0,
+    "loan_at_risk": true,
+    "severity": "HIGH"
+  },
+  "greenwash_report": {
+    "risk_level": "MEDIUM",
+    "confidence": 80,
+    "penalty": -8.0,
+    "summary": "The company's ESG claims are contradicted by the evidence, and there are significant dirty-chain risks associated with the suppliers. The greenwash risk level is MEDIUM due to the contradictions and vague claims.",
+    "fraud_analysis": "Report ER1 - Statement 1: Company reports 30% reduction in emissions and increased renewable energy usage is contradicted by the evidence. The Scope 1 emissions are 50.221 tCO2e, which is not a reduction. Additionally, the renewable energy usage is 8000000 Wh, which is not a significant increase compared to the non-renewable energy usage of 205682000.0 Wh. Report ER3 - Statement 1: Claims 40% solar adoption but no third-party verification attached is vague as there is no evidence to support this claim. Report ER2 - Statement 1: Supplier transition plan initiated to reduce carbon footprint across logistics chain is vague as there is no evidence to support this claim.",
+    "dirty_chain_risk": "Supplier SUP_E has regulatory violations (3), no certification, negative sentiment (-0.7), and a low ESG score (55). Supplier SUP_A has regulatory violations (2), no certification, and negative sentiment (-0.8). Supplier SUP_B has regulatory violations (1) and no certification."
+  },
+  "esg_breakdown": {
+    "base_score": 44.0,
+    "news_drop": -12.0,
+    "greenwash_pen": -8.0,
+    "total_penalty": -20.0,
+    "penalty_magnitude": 20.0,
+    "total_score": 24.0,
+    "environmental": 35,
+    "social": 50,
+    "governance": 65
+  },
+  "supplier_action": {
+    "risk_node_id": "SUP_E",
+    "new_supplier_id": "SUP_C",
+    "proposed_action": "Replacing SUP_E with SUP_C",
+    "rationale": "SUP_C has a lower risk profile compared to SUP_E, with fewer regulatory violations and higher ESG score. This switch will improve the overall ESG score and reduce the risk of greenwashing.",
+    "esg_before": 24,
+    "esg_after": 30.0
+  },
+  "improvement_roadmap": [
+    {
+      "metric": "carbon_emissions_reduction",
+      "pillar": "E",
+      "current": 0.0,
+      "target": 20.0,
+      "gap": 20.0,
+      "action": "Implement a carbon emissions reduction plan to achieve 20.0% reduction within the next 6 months.",
+      "estimated_uplift": "+20 ESG points",
+      "effort": "HIGH"
+    },
+    {
+      "metric": "renewable_energy_usage",
+      "pillar": "E",
+      "current": 3.13,
+      "target": 50.0,
+      "gap": 46.87,
+      "action": "Increase renewable energy usage by 43.87% within the next 6 months by investing in solar panels or wind turbines.",
+      "estimated_uplift": "+43.87 ESG points",
+      "effort": "HIGH"
+    },
+    {
+      "metric": "gender_pay_gap",
+      "pillar": "S",
+      "current": null,
+      "target": 5.0,
+      "gap": 5.0,
+      "action": "Implement a gender pay gap tracking system and conduct regular audits to ensure compliance with the target of 5.0%.",
+      "estimated_uplift": "+5 ESG points",
+      "effort": "MEDIUM"
+    },
+    {
+      "metric": "water_usage_reduction",
+      "pillar": "E",
+      "current": 0.0,
+      "target": 15.0,
+      "gap": 15.0,
+      "action": "Implement a water usage reduction plan to achieve 15.0% reduction within the next 6 months.",
+      "estimated_uplift": "+15 ESG points",
+      "effort": "HIGH"
+    },
+    {
+      "metric": "supply_chain_audits",
+      "pillar": "S",
+      "current": null,
+      "target": 2.0,
+      "gap": 2.0,
+      "action": "Implement a supply chain audit system to ensure compliance with the target of 2.0 audits per year.",
+      "estimated_uplift": "+2 ESG points",
+      "effort": "MEDIUM"
+    }
+  ],
+  "cfo_portfolio": {
+    "total_actions": 6,
+    "approved_count": 6,
+    "rejected_count": 0,
+    "approved_actions": [
+      {
+        "action": "Replacing SUP_E with SUP_C",
+        "action_type": "SUPPLIER_SWAP",
+        "approved": true,
+        "financial_impact": -1975.0,
+        "esg_impact": 6.0,
+        "reason": "Lower ESG supplier reduces compliance risk"
+      },
+      {
+        "action": "Implement a carbon emissions reduction plan to achieve 20.0% reduction within the next 6 months.",
+        "action_type": "ESG_IMPROVEMENT",
+        "approved": true,
+        "financial_impact": 0.0,
+        "esg_impact": 20.0,
+        "reason": "Carbon emissions reduction improves ESG score"
+      },
+      {
+        "action": "Increase renewable energy usage by 43.87% within the next 6 months by investing in solar panels or wind turbines.",
+        "action_type": "ESG_IMPROVEMENT",
+        "approved": true,
+        "financial_impact": 0.0,
+        "esg_impact": 43.87,
+        "reason": "Renewable energy usage improves ESG score"
+      },
+      {
+        "action": "Implement a gender pay gap tracking system and conduct regular audits to ensure compliance with the target of 5.0%.",
+        "action_type": "ESG_IMPROVEMENT",
+        "approved": true,
+        "financial_impact": 0.0,
+        "esg_impact": 5.0,
+        "reason": "Gender pay gap tracking improves ESG score"
+      },
+      {
+        "action": "Implement a water usage reduction plan to achieve 15.0% reduction within the next 6 months.",
+        "action_type": "ESG_IMPROVEMENT",
+        "approved": true,
+        "financial_impact": 0.0,
+        "esg_impact": 15.0,
+        "reason": "Water usage reduction improves ESG score"
+      },
+      {
+        "action": "Implement a supply chain audit system to ensure compliance with the target of 2.0 audits per year.",
+        "action_type": "ESG_IMPROVEMENT",
+        "approved": true,
+        "financial_impact": 0.0,
+        "esg_impact": 2.0,
+        "reason": "Supply chain audit improves ESG score"
+      }
+    ],
+    "rejected_actions": [],
+    "net_financial_impact": -1975.0,
+    "net_esg_impact": 91.87
+  },
+  "reasoning_trace": {
+    "fraud_detector": "The company's ESG claims are contradicted by the evidence, and there are significant dirty-chain risks associated with the suppliers. The greenwash risk level is MEDIUM due to the contradictions and vague claims.",
+    "esg_auditor": "ESG Auditor identified 4 improvement actions, with 2 requiring high effort. The dominant ESG pillar affected is S. Expected ESG uplift is +42.3 ESG points. Social governance gaps dominate ESG risk profile; improvements focus on workforce and supply chain compliance..",
+    "cfo_critic": "CFO approved 6 actions and rejected 0 actions. The portfolio resulted in a net ESG impact of 96.9 points and a financial impact of RM -1,975.00. Decision was primarily driven by esg compliance over cost. CFO prioritizes ESG uplift over marginal financial cost due to regulatory exposure risk.",
+    "arbitrageur": "The approved actions include replacing SUP_E with SUP_C, implementing a carbon emissions reduction plan, increasing renewable energy usage, implementing a gender pay gap tracking system, implementing a water usage reduction plan, and implementing a supply chain audit system. These actions are expected to improve the ESG score and reduce the net financial impact."
+  },
+  "loan_decision": {
+    "verdict": "CONDITIONAL",
+    "suggested_amount": 600000,
+    "suggested_rate": 2.5,
+    "conditions": [
+      {
+        "action": "Replacing SUP_E with SUP_C",
+        "action_type": "SUPPLIER_SWAP",
+        "financial_impact": -1975.0,
+        "esg_impact": 6.0,
+        "reason": "Lower ESG supplier reduces compliance risk"
+      },
+      {
+        "action": "Implement a carbon emissions reduction plan to achieve 20.0% reduction within the next 6 months.",
+        "action_type": "ESG_IMPROVEMENT",
+        "financial_impact": 0.0,
+        "esg_impact": 20.0,
+        "reason": "Carbon emissions reduction improves ESG score"
+      },
+      {
+        "action": "Increase renewable energy usage by 43.87% within the next 6 months by investing in solar panels or wind turbines.",
+        "action_type": "ESG_IMPROVEMENT",
+        "financial_impact": 0.0,
+        "esg_impact": 43.87,
+        "reason": "Renewable energy usage improves ESG score"
+      },
+      {
+        "action": "Implement a gender pay gap tracking system and conduct regular audits to ensure compliance with the target of 5.0%.",
+        "action_type": "ESG_IMPROVEMENT",
+        "financial_impact": 0.0,
+        "esg_impact": 5.0,
+        "reason": "Gender pay gap tracking improves ESG score"
+      },
+      {
+        "action": "Implement a water usage reduction plan to achieve 15.0% reduction within the next 6 months.",
+        "action_type": "ESG_IMPROVEMENT",
+        "financial_impact": 0.0,
+        "esg_impact": 15.0,
+        "reason": "Water usage reduction improves ESG score"
+      },
+      {
+        "action": "Implement a supply chain audit system to ensure compliance with the target of 2.0 audits per year.",
+        "action_type": "ESG_IMPROVEMENT",
+        "financial_impact": 0.0,
+        "esg_impact": 2.0,
+        "reason": "Supply chain audit improves ESG score"
+      }
+    ]
+  },
+  "financing": {
+    "product": "Green Loan Tier 1",
+    "best_match": "Tier1_Green",
+    "alternative": "Consider alternative financing options that align with the company's ESG goals and objectives."
+  },
+  "impact_forecast": {
+    "day_30": "The net financial impact is expected to be -1975.0, with a potential increase in ESG score from 44 to 100, considering the greenwash penalty of -8.",
+    "day_60": "The net financial impact is expected to be -1975.0, with a potential increase in ESG score from 44 to 100, considering the greenwash penalty of -8.",
+    "day_90": "The net financial impact is expected to be -1975.0, with a potential increase in ESG score from 44 to 100, considering the greenwash penalty of -8."
+  },
+  "economic_empowerment": {
+    "local_jobs_supported": 25,
+    "community_impact_score": 15,
+    "sustainable_sourcing_pct": 40.0
+  },
+  "executive_summary": {
+    "verdict": "CONDITIONAL",
+    "amount": 600000,
+    "rate": 2.5,
+    "esg_before": 44.0,
+    "esg_after": 30.0,
+    "risk_level": "MEDIUM",
+    "supplier_swap": null,
+    "proposed_action": null,
+    "approved_actions_count": 6,
+    "top_actions": [
+      "Replacing SUP_E with SUP_C",
+      "Implement a carbon emissions reduction plan to achieve 20.0% reduction within the next 6 months.",
+      "Increase renewable energy usage by 43.87% within the next 6 months by investing in solar panels or wind turbines."
+    ],
+    "recommendation": "The approved actions include replacing SUP_E with SUP_C, implementing a carbon emissions reduction plan, increasing renewable energy usage, implementing a gender pay gap tracking system, implementing a water usage reduction plan, and implementing a supply chain audit system. These actions are expected to improve the ESG score and reduce the net financial impact.",
+    "confidence": 80,
+    "export_ready": true
+  },
+  "whatif_baseline": {
+    "current_esg": 24.0,
+    "current_esg_score": 24.0,
+    "current_annual_cogs": 0.0,
+    "approval_confidence_pct": 80.0,
+    "env": 35.0,
+    "soc": 50.0,
+    "gov": 65.0
+  },
+  "quantifiable_impact": {
+    "esg_text": "ESG -14.0 pts",
+    "financial_text": "RM 1,975 investment required",
+    "esg_delta": -14.0,
+    "financial_value": -1975.0
+  }
+}
