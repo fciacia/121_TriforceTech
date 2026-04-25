@@ -2,6 +2,19 @@
 
 GreenTrust Pulse is a high-fidelity ESG intelligence platform built to help Malaysian SMEs navigate sustainability risks, detect greenwashing, and unlock premium green financing (SLL). Using a multi-agent swarm architecture and GraphRAG, it transforms raw supply chain data into actionable financial resilience.
 
+---
+
+# Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Product Requirement Document](Documentation/121_TriforceTech_ProductRequirementDocument.pdf) | Functional & non-functional requirements |
+| [System Analysis Document](Documentation/121_TriforceTech_SystemAnalysisDocument.pdf) | Architecture, data flows & system design |
+| [Quality Assurance & Testing Document](Documentation/121_TriforceTech_QualityAssuranceTestingDocument.pdf) | Test plans, cases & QA methodology |
+| [Preliminary Round Pitch Deck](Documentation/121_TriforceTech_PreliminaryRoundPresentationPitchDeck.pdf) | Presentation slides for preliminary round |
+
+---
+
 > **Mission:** To empower SMEs with high-fidelity ESG intelligence, enabling them to navigate sustainability risks and unlock green financing with AI-driven precision.
 >
 > **Vision:** A resilient Malaysian business ecosystem where transparent ESG data drives financial value and sustainable growth for every SME.
