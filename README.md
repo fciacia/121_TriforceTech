@@ -5,11 +5,10 @@ GreenTrust Pulse is a high-fidelity ESG intelligence platform built to help Mala
 ---
 
 # 10-Minute Pitching Video with Prototype Demonstration
-Youtube: https://youtu.be/2dLa_F3zq6s
-
-Drive: https://drive.google.com/file/d/1eAGAw8gUz3u4LcbI_XuAdSmaBWxvWx2H/view?usp=sharing
-
 [Pitching Video with Prototype Demonstration](Presentation%20Video/121_TriforceTech_PitchingVideowithPrototypeDemonstration.mp4)
+
+- Youtube: https://youtu.be/2dLa_F3zq6s
+- Drive: https://drive.google.com/file/d/1eAGAw8gUz3u4LcbI_XuAdSmaBWxvWx2H/view?usp=sharing
 
 # Documentation
 
